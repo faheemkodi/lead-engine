@@ -1,0 +1,23 @@
+{% extends "admin/base.html" %}
+
+{% block branding %}
+    <h1>Survey Insights</h1>
+{% endblock branding %}
+
+{% block content %}
+    <div class="container-fluid min-vh-100 bg-light">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        {% for chart in charts %}
+                            <div style="margin: 50px auto; padding-top: 25px; border: 2px dotted lightblue;">
+                                {{ chart|safe }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

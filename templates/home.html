@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block description %}Take a short survey to get your Good Life Report!{% endblock description %}
+
+{% block title %}The Good Life Survey{% endblock title %}
+
+{% block content %}
+    <main>
+        <div class="container-fluid">
+            <div class="row vh-100 align-items-center text-center justify-content-center">
+                <div class="col col-md-6">
+                    <h1 class="text-dark">Welcome to the Good Life Survey!</h1>
+                    <div class="card bg-light h-100 py-5">
+                        <p class="lead px-2 pt-3 text-success">Take this survey and I'll mail you a Good Life Report to enhance your life!</p>
+                        <p class="text-dark px-2">You will be asked about your problems in life, and we'll generate a Good Life Score based on your answers!</p>
+                        <div class="row mx-auto mt-5">
+                            <div class="col text-center">
+                                <a href="{% url 'survey:quiz' %}" class="text-success fs-1">Begin</button> 
+                            </div>
+                        </div>
+                    </div>           
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock content %}
