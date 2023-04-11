@@ -161,6 +161,6 @@ This is the main `survey` app folder which contains the core logic of the projec
 
 ### Inspiration:
 
-This project was inspired by the likes of ConverKit which is a seamless system that allows lead generation, emailing and analytics. While nowhere near as good as it, time and effort, I believe, can make this project usable for production.
+This project was inspired by the likes of ConvertKit which is a seamless system that allows lead generation, emailing and analytics. This project is a prototype in development.
 
 _Thanks for reading!_
