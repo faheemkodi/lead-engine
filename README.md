@@ -1,7 +1,5 @@
 # LEADS
 
-### Video Demo URL: https://youtu.be/3H5u8XjYbWE
-
 ### Introduction:
 
 #### A lead generation system that helps small businesses and startups:
